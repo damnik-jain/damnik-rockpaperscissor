@@ -1,0 +1,1 @@
+web: java -jar target/fungame-1.0.jar
