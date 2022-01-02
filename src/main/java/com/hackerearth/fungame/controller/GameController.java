@@ -44,4 +44,10 @@ public class GameController {
         return jsonObject;
     }
 
+    @RequestMapping("/")
+    @ResponseBody
+    String indexPage() {
+        return "Rock Paper Scissor Game";
+    }
+
 }
